@@ -1,0 +1,55 @@
+.counter {
+    width: 350px;
+    background-color: tomato;
+    height: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.counter-header {
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error input{
+    background-color: #bf3b3b;
+    outline-color: red;
+    border: 1px solid red;
+}
+
+.counter-header input {
+    height: 40px;
+    width: 150px;
+    box-sizing: border-box;
+    /*padding-right: 5px;*/
+    font-size: 18px;
+    padding-left: 10px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.counter-header label {
+    text-align: center;
+}
+
+.red {
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.counter-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+}
+
+.counter-footer button{
+    height: 40px;
+    width: 100px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
